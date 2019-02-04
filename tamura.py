@@ -1,7 +1,7 @@
 #!/usr/bin python
 
 import re
-import sys 
+import sys
 import datetime
 
 SUCCESS = 0
@@ -12,6 +12,9 @@ def KnowTime():
   dt_end = datetime.datetime(2018, 10, 1, 0,0,0,0)
   print(dt_end - dt_start)
   return SUCCESS
+
+def PrintName():
+  print("HELLO")
 
 if __name__ == '__main__':
     if KnowTime() == SUCCESS:
