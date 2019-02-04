@@ -6,6 +6,9 @@ import datetime
 
 SUCCESS = 0
 FAILURE = -1
+#new add
+def MakeClass():
+    class
 
 def KnowTime():
   dt_start = datetime.datetime(2018, 2, 1, 0,0,0,0)
