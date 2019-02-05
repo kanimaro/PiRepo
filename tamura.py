@@ -6,6 +6,9 @@ import datetime
 
 SUCCESS = 0
 FAILURE = -1
+#new add
+def MakeClass():
+    class
 
 #master branch
 def KnowTime():
