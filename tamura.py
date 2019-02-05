@@ -9,8 +9,7 @@ FAILURE = -1
 #new add
 def MakeClass():
     class
-
-#master branch
+#this is branch A
 def KnowTime():
   dt_start = datetime.datetime(2018, 2, 1, 0,0,0,0)
   dt_end = datetime.datetime(2018, 10, 1, 0,0,0,0)
